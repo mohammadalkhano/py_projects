@@ -42,7 +42,7 @@ if __name__ == "__main__":
         print("  ꧁꧂  ꧁꧂  ꧁꧂  ꧁꧂  ꧁꧂  \n\n\n".center(window_center))
 
     def guess_and_get_hints(user_guesses, secret_numbers):
-        # TODO: fix duplicated numbers (e.g 4454) hints????  
+        # TODO: fix duplicated numbers (e.g 4454) hints????
 
         hints = []
         for i in range(0, 4):
