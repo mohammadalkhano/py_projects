@@ -5,7 +5,6 @@ import os
 from time import sleep
 from player import Player
 
-
 if __name__ == "__main__":
 
     # Get terminal size
@@ -68,7 +67,7 @@ if __name__ == "__main__":
                 user_guesses = [
                     int(guess_list)
                     for guess_list in input(
-                        "\nEnter a number of 4-digits between 0-9 (e.g: X X X X): "
+                        "\nEnter a number of 4-digits between 0-9 with space between (e.g: X X X X): "
                     ).split()
                 ]
             except ValueError:
