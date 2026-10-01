@@ -1,0 +1,8 @@
+services:
+  number_guessing:
+    build: .
+    volumes:
+      - ./number_guessing_py:/app
+    command: python src/number_guessing.py
+    stdin_open: true
+    tty: true
